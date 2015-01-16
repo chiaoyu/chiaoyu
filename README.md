@@ -1,20 +1,11 @@
 # chiaoyu
 測試
 <a href="http://tw.yahoo.com">yahoo!</a>
-var user = new Parse.User();
-user.set("username", "my name");
-user.set("password", "my pass");
-user.set("email", "email@example.com");
- 
-// other fields can be set just like with Parse.Object
-user.set("phone", "415-392-0202");
- 
-user.signUp(null, {
+Parse.User.logIn("myname", "mypass", {
   success: function(user) {
-    // Hooray! Let them use the app now.
+    // Do stuff after successful login.
   },
   error: function(user, error) {
-    // Show the error message somewhere and let the user try again.
-    alert("Error: " + error.code + " " + error.message);
+    // The login failed. Check error to see why.
   }
 });
