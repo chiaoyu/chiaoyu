@@ -19,6 +19,7 @@
 </HTML>
 
 
+<!DOCTYPE html>
 <html>
   <head>
     <title>Sample App</title>
@@ -26,11 +27,5 @@
   <body>
     <h1>Hello World</h1>
     <p><%= message %></p>
-    <form method="post" action="/hello">
-      <p>
-        <input name="message"></input>
-        <input class="button" type="submit" value="Update Greeting">
-      </p>
-    </form>
   </body>
 </html>
