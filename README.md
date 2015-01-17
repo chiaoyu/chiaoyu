@@ -1,5 +1,3 @@
-# chiaoyu
-測試
 <HTML>
 <BODY>
 <h2 ALIGN="CENTER">
@@ -17,15 +15,3 @@
 </CENTER>
 </BODY>
 </HTML>
-
-
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>Sample App</title>
-  </head>
-  <body>
-    <h1>Hello World</h1>
-    <p><%= message %></p>
-  </body>
-</html>
