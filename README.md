@@ -2,7 +2,7 @@
 <BODY>
 <h2 ALIGN="CENTER">
 嗨！親愛的會員您好<BR>請於下表填入您的認證資料！
-<FORM Action="<?=$_SERVER["PHP_SELF"];?>" Method=post>
+<FORM Action="<?=$_SERVER["PHP_SELF"];?>" 
 <TABLE BORDER=1 CELLSPACING=0 ></h2>
 <TR><TD ALIGN=RIGHT>登入名稱:</TD>
 <TD><Input Type=Text Name=ID Size=10></TD></TR>
